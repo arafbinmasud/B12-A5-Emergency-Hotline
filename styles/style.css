@@ -10,8 +10,6 @@
   font-family: "Hind Siliguri", sans-serif;
 }
 
-
-
 /* Header Section Styles */
 .header {
   max-width: 1920px;
@@ -65,45 +63,24 @@
   font-size: 1rem;
 }
 
-
-
-
 /* For Mobile Devices */
 @media screen and (max-width: 576px) {
   /* navbar styles  */
   .navbar {
     margin: 5px;
-  }
-  .nav-left {
-    flex: 1;
-  }
-  .nav-left img {
-    width: 40px;
-  }
-  .nav-left h2 {
-    font-size: 1rem;
+    flex-direction: column;
+    gap: 10px;
   }
   .nav-right {
-    flex: 1;
-    gap: 5px;
-    justify-content: space-between;
+    justify-content: center;
+    gap:5px;
   }
-  .nav-right img {
-    width: 20px;
-  }
+
   .heart-container,
   .coin-container {
-    padding: 0;
-    gap: 5px;
-    font-size: 1rem;
+    padding: 0 15px;
   }
   .nav-btn {
-    background-color: #00a63e;
-    padding: 0px 10px;
-    border: none;
-    border-radius: 50px;
-    font-weight: 400;
-    color: white;
-    font-size: 12px;
+    padding: 0px 15px;
   }
 }
