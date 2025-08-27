@@ -63,6 +63,35 @@
   font-size: 1rem;
 }
 
+/* Banner Section Styles */
+.banner-container {
+  background: linear-gradient(to right, #013223, #006747 50%, #013223 100%);
+  text-align: center;
+  color: white;
+  padding: 20px 60px;
+}
+.banner-container img {
+  width: 100px;
+}
+.banner-title{
+  font-size: 2.5rem;
+}
+.banner-description{
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* For Mobile Devices */
 @media screen and (max-width: 576px) {
   /* navbar styles  */
@@ -73,7 +102,7 @@
   }
   .nav-right {
     justify-content: center;
-    gap:5px;
+    gap: 5px;
   }
 
   .heart-container,
@@ -83,4 +112,16 @@
   .nav-btn {
     padding: 0px 15px;
   }
+
+  /* Banner Styles  */
+  .banner-container{
+  color: white;
+  padding:20px 10px;
+  }
+  .banner-title{
+  font-size: 2rem;
+}
+.banner-description{
+  font-size: 1rem;
+}
 }
